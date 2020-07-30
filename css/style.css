@@ -1,48 +1,3 @@
-/*
-Template Name: Tunis - Personal Portfolio
-Author: celtano
-Author URI: http://themeforest.net/user/celtano
-Description: Tunis - Personal Portfolio
-Version: 1.0
-*/
-
-/*------------------------------------------------------------------
-[Table of contents]
-	+ General
-	    - Miscellaneous
-		- Light Body
-		- Buttons
-		- Page Title
-	+ Header
-		- Desktop Navigation
-		- Mobile Navigation
-	+ Pages
-		- Homepage
-		+ About
-		    - Personal Info List
-			- Box Stats
-			- Resume
-			- Skills
-		+ Portfolio
-		    - Grid
-		    + Slideshow
-                - Embedded Videos
-                - Carousel
-                - Navigation
-        + Contact
-            - Left Side
-            - Contact Form
-		+ Blog
-            - Latest Posts
-            - Pagination
-	- Responsive Design Styles
--------------------------------------------------------------------*/
-
-/* [ GENERAL ] */
-/*================================================== */
-
-/*** Miscellaneous ***/
-
 html {
   overflow-x: hidden;
   height: 100%;
@@ -311,7 +266,7 @@ body.light hr.separator {
     top: 31px;
   }
 }
-/*** Buttons ***/
+
 .btn {
   box-shadow: none !important;
   border-radius: 26px;
@@ -338,7 +293,6 @@ body.light hr.separator {
   text-decoration: none;
 }
 
-/*** Page Title ***/
 
 .title-section {
   margin: 0 auto;
@@ -373,14 +327,11 @@ body.light hr.separator {
   color: rgba(255, 255, 255, 0.07);
 }
 
-/* [ HEADER ] */
-/*================================================== */
 
-/*** Desktop Navigation ***/
 
 @media (min-width: 992px) {
 
-  /*** Navigation ***/
+  
 
   .header {
     position: fixed;
@@ -484,10 +435,6 @@ body.light hr.separator {
   }
 }
 
-/* [ Pages ] */
-/*================================================== */
-
-/*** Homepage ***/
 
 .home .color-block {
   position: fixed;
@@ -553,7 +500,7 @@ body.light hr.separator {
   padding-bottom: 20px;
 }
 
-/* Personal Info List */
+
 
 .about .about-list li:not(:last-child) {
   padding-bottom: 20px;
@@ -568,7 +515,6 @@ body.light hr.separator {
   font-weight: 600;
 }
 
-/* Box Stats */
 
 .about .box-stats {
   padding: 20px 30px 25px 40px;
@@ -611,7 +557,6 @@ body.light hr.separator {
   background: #777;
 }
 
-/* Resume */
 
 .about .resume-box ul {
   margin: 0;
@@ -690,7 +635,6 @@ body.light hr.separator {
   opacity: .8;
 }
 
-/* Skills */
 
 .about .c100 {
   float: none !important;
@@ -706,13 +650,13 @@ body.light hr.separator {
   background-color: #111;
 }
 
-/*** Portfolio ***/
+
 .portfolio .main-content {
   padding-bottom: 60px;
   margin-top: -15px;
 }
 
-/* Grid */
+
 
 .portfolio .grid-gallery ul {
   list-style: none;
@@ -787,7 +731,7 @@ body.light hr.separator {
   font-size: 18px;
 }
 
-/* Slideshow */
+
 
 .portfolio .slideshow {
   position: fixed;
@@ -894,7 +838,7 @@ body.light hr.separator {
   font-size: 33px;
 }
 
-/* Embedded Videos */
+
 
 .portfolio .slideshow .videocontainer,
 .portfolio .slideshow .responsive-video {
@@ -928,7 +872,7 @@ body.light hr.separator {
   border: 0;
 }
 
-/* Carousel */
+
 
 .portfolio .slideshow .carousel-indicators {
   bottom: 0;
@@ -946,7 +890,7 @@ body.light hr.separator {
   opacity: 1;
 }
 
-/* Navigation */
+
 
 .portfolio .slideshow nav span {
   position: fixed;
@@ -980,11 +924,11 @@ body.light hr.separator {
   padding: 0;
 }
 
-/*** Contact ***/
+
 .contact .main-content {
   padding-bottom: 85px;
 }
-/* Left Side */
+
 
 .contact .custom-span-contact {
   font-weight: 600;
@@ -1031,7 +975,7 @@ body.light hr.separator {
   background: #2b2a2a;
   border-radius: 50%;
 }
-/* Form */
+
 .contact .contactform input[type=text],
 .contact .contactform input[type=email] {
   border: 1px solid #111;
@@ -1091,13 +1035,13 @@ body.light hr.separator {
   padding-right: 10px;
 }
 
-/*** Blog ***/
+
 
 .blog .main-content {
   padding-bottom: 85px;
 }
 
-/* Latest Posts */
+
 
 .blog .post-container {
   display: block;
@@ -1147,7 +1091,7 @@ body.light hr.separator {
   font-weight: 600;
 }
 
-/* pagination */
+
 
 .blog .pagination {
   margin-bottom: 30px;
@@ -1177,7 +1121,6 @@ body.light hr.separator {
   color: #fff !important;
 }
 
-/* Blog Post */
 
 .blog-post article {
   max-width: 700px;
@@ -1207,7 +1150,7 @@ body.light hr.separator {
   padding-right: 3px;
 }
 
-/* [ RESPONSIVE DESIGN STYLES ] */
+
 
 @media (min-width: 1351px) {
   .portfolio .container-portfolio .grid {
@@ -1302,7 +1245,7 @@ body.light hr.separator {
   }
 }
 
-/* Mobile  Navigation */
+
 
 @media (max-width: 991px) {
   .btn {
